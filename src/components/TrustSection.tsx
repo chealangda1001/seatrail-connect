@@ -36,14 +36,17 @@ const TrustSection = () => {
         <ScrollReveal delay={0.1}>
           <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 mb-16">
             {routes.map((r, i) => (
-              <div
+              <a
                 key={i}
-                className="inline-flex items-center gap-2 px-5 py-3 bg-card rounded-2xl card-shadow border border-border/50 text-sm font-medium text-foreground"
+                href={r.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-3 bg-card rounded-2xl card-shadow border border-border/50 text-sm font-medium text-foreground hover:border-primary/30 hover:-translate-y-0.5 transition-all duration-200"
               >
                 {r.from}
                 <ArrowRight className="w-4 h-4 text-primary" />
                 {r.to}
-              </div>
+              </a>
             ))}
           </div>
         </ScrollReveal>
