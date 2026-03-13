@@ -1,11 +1,12 @@
 import ScrollReveal from "@/components/ScrollReveal";
-import { ArrowRight, Calendar, Lock, Ticket, ShieldCheck, Users, Route, Search, Globe } from "lucide-react";
+import { ArrowRight, Calendar, Lock, Ticket, ShieldCheck } from "lucide-react";
 
 const routes = [
   { from: "Phnom Penh", to: "Siem Reap" },
   { from: "Phnom Penh", to: "Sihanoukville" },
   { from: "Siem Reap", to: "Bangkok" },
   { from: "Phnom Penh", to: "Ho Chi Minh City" },
+  { from: "Phnom Penh", to: "Vientiane, Laos PDR" },
 ];
 
 const features = [
@@ -13,13 +14,6 @@ const features = [
   { icon: Lock, title: "Book securely", desc: "Safe, encrypted payment processing for every transaction" },
   { icon: Ticket, title: "Receive digital tickets", desc: "Instant e-tickets delivered to your device" },
   { icon: ShieldCheck, title: "Travel with trusted operators", desc: "Vetted and verified transport partners" },
-];
-
-const stats = [
-  { icon: Users, label: "Operators connected", value: "60+" },
-  { icon: Route, label: "Daily trips processed", value: "1,000+" },
-  { icon: Search, label: "Annual travelers", value: "2M+" },
-  { icon: Globe, label: "Markets reached", value: "3" },
 ];
 
 const TrustSection = () => {
@@ -69,19 +63,6 @@ const TrustSection = () => {
           ))}
         </div>
 
-        <ScrollReveal delay={0.3}>
-          <div className="bg-card rounded-3xl p-8 lg:p-10 card-shadow border border-border/50">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-              {stats.map((s, i) => (
-                <div key={i} className="text-center">
-                  <s.icon className="w-8 h-8 text-primary mx-auto mb-3" />
-                  <div className="font-heading text-2xl sm:text-3xl font-bold text-foreground mb-1">{s.value}</div>
-                  <p className="text-sm text-muted-foreground">{s.label}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </ScrollReveal>
       </div>
     </section>
   );

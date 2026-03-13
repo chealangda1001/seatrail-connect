@@ -17,11 +17,11 @@ const Index = () => {
         <HeroSection />
         <FounderStorySection />
         <SolutionSection />
+        <ImpactSection />
         <TrustSection />
-        <FeaturedOnSection />
         <SaaSSection />
         <OperatorShowcaseSection />
-        <ImpactSection />
+        <FeaturedOnSection />
         <CTASection />
       </main>
       <Footer />
