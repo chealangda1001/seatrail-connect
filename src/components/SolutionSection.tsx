@@ -32,16 +32,6 @@ const SolutionSection = () => {
           </div>
         </ScrollReveal>
 
-        {/* Transport modes visual */}
-        <ScrollReveal delay={0.1}>
-          <div className="mb-20">
-            <img
-              src={bmbServices}
-              alt="BookMeBus transport services — buses, ferries, cars, private transfers, and trains"
-              className="w-full max-w-4xl mx-auto rounded-3xl"
-            />
-          </div>
-        </ScrollReveal>
 
         <div className="grid lg:grid-cols-2 gap-16">
           <ScrollReveal delay={0.15}>
