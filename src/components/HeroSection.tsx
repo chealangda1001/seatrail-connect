@@ -1,9 +1,19 @@
 import { motion } from "framer-motion";
 import { Globe, MapPin, Wifi } from "lucide-react";
+import bmbServices from "@/assets/BMB_services.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative overflow-hidden gradient-hero-bg section-padding pt-24 lg:pt-32">
+    <section className="relative overflow-hidden gradient-hero-bg section-padding pt-0 lg:pt-0">
+      {/* Page thumbnail banner */}
+      <div className="w-full mb-12">
+        <img
+          src={bmbServices}
+          alt="BookMeBus transport services — buses, ferries, cars, private transfers, and trains"
+          className="w-full h-[280px] sm:h-[360px] lg:h-[440px] object-cover"
+        />
+      </div>
+
       {/* Abstract network background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <svg className="absolute top-20 right-0 w-[600px] h-[600px] opacity-[0.06]" viewBox="0 0 600 600" fill="none">
