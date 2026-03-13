@@ -72,10 +72,6 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <span className="flex items-center gap-1.5">
-              <MapPin className="w-4 h-4 text-primary" />
-              Multiple countries
-            </span>
-            <span className="flex items-center gap-1.5">
               <Wifi className="w-4 h-4 text-primary" />
               Digital-first platform
             </span>
