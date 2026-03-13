@@ -22,13 +22,15 @@ const CTASection = () => {
               >
                 Search Routes <ArrowRight className="w-4 h-4 ml-1" />
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold text-base px-8 py-6 rounded-2xl"
-              >
-                <Handshake className="w-4 h-4 mr-1" /> Become a Partner
-              </Button>
+              <a href="mailto:partner@bookmebus.com">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground font-semibold text-base px-8 py-6 rounded-2xl"
+                >
+                  <Handshake className="w-4 h-4 mr-1" /> Become a Partner
+                </Button>
+              </a>
             </div>
           </div>
         </ScrollReveal>
