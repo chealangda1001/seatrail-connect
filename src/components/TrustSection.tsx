@@ -75,7 +75,6 @@ const TrustSection = () => {
               {stats.map((s, i) => (
                 <div key={i} className="text-center">
                   <s.icon className="w-8 h-8 text-primary mx-auto mb-3" />
-                  {/* Placeholder - replace with real numbers */}
                   <div className="font-heading text-2xl sm:text-3xl font-bold text-foreground mb-1">{s.value}</div>
                   <p className="text-sm text-muted-foreground">{s.label}</p>
                 </div>
