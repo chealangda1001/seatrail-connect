@@ -1,6 +1,5 @@
-import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { MapPin, Globe, Wifi, ArrowRight } from "lucide-react";
+import { Globe, MapPin, Wifi } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -31,7 +30,7 @@ const HeroSection = () => {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-8">
               <Globe className="w-4 h-4" />
-              Digital Mobility Platform for Southeast Asia
+              About BookMeBus
             </div>
           </motion.div>
 
@@ -57,24 +56,10 @@ const HeroSection = () => {
           </motion.p>
 
           <motion.div
-            className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-          >
-            <Button variant="hero" size="lg" className="text-base px-8 py-6 rounded-2xl">
-              Explore Routes <ArrowRight className="w-4 h-4 ml-1" />
-            </Button>
-            <Button variant="hero-outline" size="lg" className="text-base px-8 py-6 rounded-2xl">
-              Partner With Us
-            </Button>
-          </motion.div>
-
-          <motion.div
             className="flex items-center justify-center gap-6 text-sm text-muted-foreground"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.55 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
           >
             <span className="flex items-center gap-1.5">
               <MapPin className="w-4 h-4 text-primary" />
@@ -90,7 +75,7 @@ const HeroSection = () => {
             className="mt-12 text-sm text-muted-foreground"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.65 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
           >
             Trusted by travelers and transport operators across Southeast Asia
           </motion.p>
