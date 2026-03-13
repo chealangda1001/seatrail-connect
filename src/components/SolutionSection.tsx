@@ -1,12 +1,7 @@
 import ScrollReveal from "@/components/ScrollReveal";
-import { Bus, Ship, Train, Car, MapPin, Calendar, Ticket, Shield, Route, Package, Globe, Settings } from "lucide-react";
+import { MapPin, Calendar, Ticket, Shield, Route, Package, Globe, Settings } from "lucide-react";
+import bmbServices from "@/assets/BMB_services.png";
 
-const modes = [
-  { icon: Bus, label: "Buses" },
-  { icon: Ship, label: "Ferries" },
-  { icon: Train, label: "Trains" },
-  { icon: Car, label: "Private Transfers" },
-];
 
 const travelerFeatures = [
   { icon: MapPin, title: "Discover routes", desc: "Search across operators and modes in one place" },
@@ -39,18 +34,14 @@ const SolutionSection = () => {
           </div>
         </ScrollReveal>
 
-        {/* Transport modes */}
+        {/* Transport modes visual */}
         <ScrollReveal delay={0.1}>
-          <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mb-20">
-            {modes.map((mode, i) => (
-              <div
-                key={i}
-                className="flex items-center gap-3 px-6 py-4 bg-card rounded-2xl card-shadow border border-border/50 hover:border-primary/30 transition-all duration-300 hover:-translate-y-1"
-              >
-                <mode.icon className="w-6 h-6 text-primary" />
-                <span className="font-heading font-semibold text-foreground">{mode.label}</span>
-              </div>
-            ))}
+          <div className="mb-20">
+            <img
+              src={bmbServices}
+              alt="BookMeBus transport services — buses, ferries, cars, private transfers, and trains"
+              className="w-full max-w-4xl mx-auto rounded-3xl"
+            />
           </div>
         </ScrollReveal>
 

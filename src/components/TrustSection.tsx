@@ -16,10 +16,10 @@ const features = [
 ];
 
 const stats = [
-  { icon: Users, label: "Operators connected", value: "XX+" },
-  { icon: Route, label: "Routes available", value: "XXX+" },
-  { icon: Search, label: "Travelers served", value: "Millions of searches" },
-  { icon: Globe, label: "Markets reached", value: "Multiple countries" },
+  { icon: Users, label: "Operators connected", value: "60+" },
+  { icon: Route, label: "Daily trips processed", value: "1,000+" },
+  { icon: Search, label: "Annual travelers", value: "2M+" },
+  { icon: Globe, label: "Markets reached", value: "3" },
 ];
 
 const TrustSection = () => {
@@ -69,14 +69,12 @@ const TrustSection = () => {
           ))}
         </div>
 
-        {/* Stats strip - placeholder values, replace with real metrics */}
         <ScrollReveal delay={0.3}>
           <div className="bg-card rounded-3xl p-8 lg:p-10 card-shadow border border-border/50">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
               {stats.map((s, i) => (
                 <div key={i} className="text-center">
                   <s.icon className="w-8 h-8 text-primary mx-auto mb-3" />
-                  {/* Placeholder - replace with real numbers */}
                   <div className="font-heading text-2xl sm:text-3xl font-bold text-foreground mb-1">{s.value}</div>
                   <p className="text-sm text-muted-foreground">{s.label}</p>
                 </div>
