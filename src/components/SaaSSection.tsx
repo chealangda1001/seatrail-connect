@@ -17,20 +17,20 @@ const SaaSSection = () => {
         <ScrollReveal>
           <div className="text-center max-w-3xl mx-auto mb-6">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/10 text-secondary text-sm font-medium mb-6">
-              For Transport Operators
+              For Transport Operators & Partners
             </div>
             <h2 id="saas-heading" className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Digital infrastructure for{" "}
-              <span className="text-secondary">modern transport companies</span>
+              Tools to help you{" "}
+              <span className="text-secondary">grow your business</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              BookMeBus is not just a marketplace. It's the software layer that powers transport operations —
-              from ticket sales to fleet management.
+              We provide transport operators with the digital tools they need to sell more tickets,
+              manage operations efficiently, and reach new customers.
             </p>
           </div>
         </ScrollReveal>
 
-        {/* Dashboard placeholder visual */}
+        {/* Dashboard preview */}
         <ScrollReveal delay={0.1}>
           <div className="relative max-w-4xl mx-auto mb-16">
             <div className="bg-card rounded-3xl p-6 lg:p-8 elevated-shadow border border-border/50">
@@ -71,15 +71,6 @@ const SaaSSection = () => {
             </ScrollReveal>
           ))}
         </div>
-
-        <ScrollReveal delay={0.4}>
-          <p className="text-center text-xl sm:text-2xl font-heading font-bold text-foreground max-w-3xl mx-auto">
-            BookMeBus helps transport operators{" "}
-            <span className="text-secondary">digitize sales</span>,{" "}
-            <span className="text-secondary">streamline operations</span>, and{" "}
-            <span className="text-secondary">expand reach</span>.
-          </p>
-        </ScrollReveal>
       </div>
     </section>
   );

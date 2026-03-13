@@ -2,7 +2,6 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { MapPin, Calendar, Ticket, Shield, Route, Package, Globe, Settings } from "lucide-react";
 import bmbServices from "@/assets/BMB_services.png";
 
-
 const travelerFeatures = [
   { icon: MapPin, title: "Discover routes", desc: "Search across operators and modes in one place" },
   { icon: Calendar, title: "Compare schedules", desc: "View real-time availability and departure times" },
@@ -24,12 +23,11 @@ const SolutionSection = () => {
         <ScrollReveal>
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 id="solution-heading" className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              A unified platform for{" "}
-              <span className="text-primary">travelers and transport operators</span>
+              What we <span className="text-primary">do</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              BookMeBus brings together multiple modes of transport in one connected platform,
-              serving both sides of the mobility equation.
+              BookMeBus brings together multiple modes of transport in one connected platform —
+              making travel easier for passengers and operations smoother for partners.
             </p>
           </div>
         </ScrollReveal>
@@ -46,7 +44,6 @@ const SolutionSection = () => {
         </ScrollReveal>
 
         <div className="grid lg:grid-cols-2 gap-16">
-          {/* Traveler side */}
           <ScrollReveal delay={0.15}>
             <div>
               <h3 className="font-heading text-2xl font-bold text-foreground mb-8">
@@ -66,11 +63,10 @@ const SolutionSection = () => {
             </div>
           </ScrollReveal>
 
-          {/* Operator side */}
           <ScrollReveal delay={0.25}>
             <div>
               <h3 className="font-heading text-2xl font-bold text-foreground mb-8">
-                For <span className="text-secondary">Operators</span>
+                For <span className="text-secondary">Operators & Partners</span>
               </h3>
               <div className="grid sm:grid-cols-2 gap-6">
                 {operatorFeatures.map((f, i) => (
