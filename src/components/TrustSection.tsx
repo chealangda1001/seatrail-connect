@@ -6,6 +6,7 @@ const routes = [
   { from: "Phnom Penh", to: "Sihanoukville" },
   { from: "Siem Reap", to: "Bangkok" },
   { from: "Phnom Penh", to: "Ho Chi Minh City" },
+  { from: "Phnom Penh", to: "Vientiane, Laos PDR" },
 ];
 
 const features = [
