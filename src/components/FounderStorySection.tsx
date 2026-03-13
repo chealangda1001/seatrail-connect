@@ -6,9 +6,11 @@ const FounderStorySection = () => {
     <section className="py-20 md:py-28 bg-background">
       <div className="container mx-auto px-6 max-w-4xl">
         <ScrollReveal>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-10">
-            How BookMeBus Started
-          </h2>
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
+              How BookMeBus <span className="text-primary">Started</span>
+            </h2>
+          </div>
         </ScrollReveal>
 
         <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
