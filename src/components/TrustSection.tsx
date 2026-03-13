@@ -1,5 +1,5 @@
 import ScrollReveal from "@/components/ScrollReveal";
-import { ArrowRight, Calendar, Lock, Ticket, ShieldCheck, Users, Route, Search, Globe } from "lucide-react";
+import { ArrowRight, Calendar, Lock, Ticket, ShieldCheck } from "lucide-react";
 
 const routes = [
   { from: "Phnom Penh", to: "Siem Reap" },
@@ -14,13 +14,6 @@ const features = [
   { icon: Lock, title: "Book securely", desc: "Safe, encrypted payment processing for every transaction" },
   { icon: Ticket, title: "Receive digital tickets", desc: "Instant e-tickets delivered to your device" },
   { icon: ShieldCheck, title: "Travel with trusted operators", desc: "Vetted and verified transport partners" },
-];
-
-const stats = [
-  { icon: Users, label: "Operators connected", value: "60+" },
-  { icon: Route, label: "Daily trips processed", value: "1,000+" },
-  { icon: Search, label: "Annual travelers", value: "2M+" },
-  { icon: Globe, label: "Markets reached", value: "3" },
 ];
 
 const TrustSection = () => {
