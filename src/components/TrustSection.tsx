@@ -16,10 +16,10 @@ const features = [
 ];
 
 const stats = [
-  { icon: Users, label: "Operators connected", value: "XX+" },
-  { icon: Route, label: "Routes available", value: "XXX+" },
-  { icon: Search, label: "Travelers served", value: "Millions of searches" },
-  { icon: Globe, label: "Markets reached", value: "Multiple countries" },
+  { icon: Users, label: "Operators connected", value: "60+" },
+  { icon: Route, label: "Daily trips processed", value: "1,000+" },
+  { icon: Search, label: "Annual travelers", value: "2M+" },
+  { icon: Globe, label: "Markets reached", value: "3" },
 ];
 
 const TrustSection = () => {
