@@ -65,17 +65,6 @@ const HeroSection = () => {
             modern ticketing and distribution technology.
           </motion.p>
 
-          <motion.div
-            className="flex items-center justify-center gap-6 text-sm text-muted-foreground"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-          >
-            <span className="flex items-center gap-1.5">
-              <Wifi className="w-4 h-4 text-primary" />
-              Digital-first platform
-            </span>
-          </motion.div>
 
           <motion.p
             className="mt-12 text-sm text-muted-foreground"
