@@ -3,47 +3,24 @@ import ScrollReveal from "./ScrollReveal";
 
 const FounderStorySection = () => {
   return (
-    <section className="py-20 md:py-28 bg-background">
-      <div className="container mx-auto px-6 max-w-4xl">
+    <section className="section-padding bg-background">
+      <div className="section-container">
         <ScrollReveal>
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
               How BookMeBus <span className="text-primary">Started</span>
             </h2>
+            <p className="text-lg text-muted-foreground">
+              BookMeBus was founded in 2015 by Langda Chea after recognizing how difficult it was
+              to plan intercity travel across Cambodia. At the time, travelers often had to visit
+              ticket counters or call operators individually to secure seats. BookMeBus was created
+              to simplify this experience — enabling travelers to search routes, compare schedules,
+              and book tickets online through a single platform. What started as a bus booking
+              marketplace has evolved into a digital mobility platform connecting travelers and
+              transport operators across Southeast Asia.
+            </p>
           </div>
         </ScrollReveal>
-
-        <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
-          <ScrollReveal delay={0.1}>
-            <p>
-              BookMeBus was founded in 2015 by Langda Chea after recognizing how
-              difficult it was to plan intercity travel across Cambodia.
-            </p>
-          </ScrollReveal>
-
-          <ScrollReveal delay={0.15}>
-            <p>
-              At the time, travelers often had to visit ticket counters or call
-              operators individually to secure seats.
-            </p>
-          </ScrollReveal>
-
-          <ScrollReveal delay={0.2}>
-            <p>
-              BookMeBus was created to simplify this experience by enabling
-              travelers to search routes, compare schedules, and book tickets
-              online through a single platform.
-            </p>
-          </ScrollReveal>
-
-          <ScrollReveal delay={0.25}>
-            <p>
-              What started as a bus booking marketplace has evolved into a digital
-              mobility platform connecting travelers and transport operators across
-              Southeast Asia.
-            </p>
-          </ScrollReveal>
-        </div>
 
         {/* Mission & Vision Cards */}
         <div className="grid md:grid-cols-2 gap-6 mt-14">
