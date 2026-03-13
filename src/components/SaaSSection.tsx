@@ -1,5 +1,5 @@
 import ScrollReveal from "@/components/ScrollReveal";
-import { Route, LayoutGrid, BarChart3, Globe, Palette, Eye } from "lucide-react";
+import { Route, LayoutGrid, BarChart3, Globe, Palette, Eye, Database } from "lucide-react";
 
 const features = [
   { icon: Route, title: "Route & schedule management", desc: "Create, update, and manage routes with granular control over stops, pricing, and availability." },
@@ -71,6 +71,23 @@ const SaaSSection = () => {
             </ScrollReveal>
           ))}
         </div>
+
+        {/* GTFS callout */}
+        <ScrollReveal delay={0.5}>
+          <div className="bg-secondary/5 rounded-3xl p-8 lg:p-10 border border-secondary/10 max-w-4xl mx-auto flex items-start gap-5">
+            <div className="flex-shrink-0 w-12 h-12 rounded-2xl bg-secondary/10 flex items-center justify-center mt-1">
+              <Database className="w-6 h-6 text-secondary" />
+            </div>
+            <div>
+              <h3 className="font-heading font-bold text-foreground mb-2">Built on open standards</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                BookMeBus leverages the General Transit Feed Specification (GTFS), an open transit data
+                standard introduced by Google, to structure and distribute transport routes, schedules,
+                and service information across its platform.
+              </p>
+            </div>
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   );
