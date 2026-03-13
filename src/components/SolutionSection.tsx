@@ -1,5 +1,6 @@
 import ScrollReveal from "@/components/ScrollReveal";
-import { Bus, Ship, Train, Car, MapPin, Calendar, Ticket, Shield, Route, Package, Globe, Settings } from "lucide-react";
+import { MapPin, Calendar, Ticket, Shield, Route, Package, Globe, Settings } from "lucide-react";
+import bmbServices from "@/assets/BMB_services.png";
 
 const modes = [
   { icon: Bus, label: "Buses" },
