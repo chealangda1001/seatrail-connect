@@ -2,12 +2,6 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { MapPin, Calendar, Ticket, Shield, Route, Package, Globe, Settings } from "lucide-react";
 import bmbServices from "@/assets/BMB_services.png";
 
-const modes = [
-  { icon: Bus, label: "Buses" },
-  { icon: Ship, label: "Ferries" },
-  { icon: Train, label: "Trains" },
-  { icon: Car, label: "Private Transfers" },
-];
 
 const travelerFeatures = [
   { icon: MapPin, title: "Discover routes", desc: "Search across operators and modes in one place" },
