@@ -3,7 +3,9 @@ import HeroSection from "@/components/HeroSection";
 import FounderStorySection from "@/components/FounderStorySection";
 import SolutionSection from "@/components/SolutionSection";
 import TrustSection from "@/components/TrustSection";
+import FeaturedOnSection from "@/components/FeaturedOnSection";
 import SaaSSection from "@/components/SaaSSection";
+import OperatorShowcaseSection from "@/components/OperatorShowcaseSection";
 import ImpactSection from "@/components/ImpactSection";
 import CTASection from "@/components/CTASection";
 
@@ -16,7 +18,9 @@ const Index = () => {
         <FounderStorySection />
         <SolutionSection />
         <TrustSection />
+        <FeaturedOnSection />
         <SaaSSection />
+        <OperatorShowcaseSection />
         <ImpactSection />
         <CTASection />
       </main>
