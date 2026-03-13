@@ -4,6 +4,7 @@ import forbesLogo from "@/assets/media/forbes.png";
 import incSeaLogo from "@/assets/media/inc-sea.png";
 import lonelyPlanetLogo from "@/assets/media/lonely-planet.png";
 import voaLogo from "@/assets/media/voa.png";
+import witLogo from "@/assets/media/wit.svg";
 
 const mediaOutlets = [
   {
@@ -25,6 +26,11 @@ const mediaOutlets = [
     name: "Lonely Planet",
     logo: lonelyPlanetLogo,
     href: "https://www.lonelyplanet.com/articles/getting-around-cambodia",
+  },
+  {
+    name: "WIT",
+    logo: witLogo,
+    href: "https://www.webintravel.com/bookmebus-wants-to-change-the-way-locals-and-travellers-explore-cambodia-by-digitising-bus-travel/",
   },
   {
     name: "VOA",
