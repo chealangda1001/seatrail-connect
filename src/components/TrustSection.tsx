@@ -2,11 +2,11 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { ArrowRight, Calendar, Lock, Ticket, ShieldCheck } from "lucide-react";
 
 const routes = [
-  { from: "Phnom Penh", to: "Siem Reap" },
-  { from: "Phnom Penh", to: "Sihanoukville" },
-  { from: "Siem Reap", to: "Bangkok" },
-  { from: "Phnom Penh", to: "Ho Chi Minh City" },
-  { from: "Phnom Penh", to: "Vientiane, Laos PDR" },
+  { from: "Phnom Penh", to: "Siem Reap", href: "https://bookmebus.com/en/search/bus/phnom-penh/siem-reap" },
+  { from: "Phnom Penh", to: "Sihanoukville", href: "https://bookmebus.com/en/search/bus/phnom-penh/sihanoukville" },
+  { from: "Phnom Penh", to: "Bangkok", href: "https://bookmebus.com/en/search/bus/phnom-penh/bangkok" },
+  { from: "Phnom Penh", to: "Ho Chi Minh City", href: "https://bookmebus.com/en/search/bus/phnom-penh/ho-chi-minh" },
+  { from: "Phnom Penh", to: "Vientiane, Laos PDR", href: "https://bookmebus.com/en/search/bus/phnom-penh/vientiane" },
 ];
 
 const features = [
