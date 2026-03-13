@@ -28,6 +28,11 @@ const mediaOutlets = [
     href: "https://www.lonelyplanet.com/articles/getting-around-cambodia",
   },
   {
+    name: "WIT",
+    logo: witLogo,
+    href: "https://www.webintravel.com/bookmebus-wants-to-change-the-way-locals-and-travellers-explore-cambodia-by-digitising-bus-travel/",
+  },
+  {
     name: "VOA",
     logo: voaLogo,
     href: "https://khmer.voanews.com/a/3456077.html",
