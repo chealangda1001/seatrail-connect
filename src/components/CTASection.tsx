@@ -16,12 +16,14 @@ const CTASection = () => {
               BookMeBus connects you to the tools and services that make travel easier.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button
-                size="lg"
-                className="bg-card text-foreground hover:bg-card/90 font-semibold text-base px-8 py-6 rounded-2xl shadow-lg"
-              >
-                Search Routes <ArrowRight className="w-4 h-4 ml-1" />
-              </Button>
+              <a href="https://bookmebus.com" target="_blank" rel="noopener noreferrer">
+                <Button
+                  size="lg"
+                  className="bg-card text-foreground hover:bg-card/90 font-semibold text-base px-8 py-6 rounded-2xl shadow-lg"
+                >
+                  Search Routes <ArrowRight className="w-4 h-4 ml-1" />
+                </Button>
+              </a>
               <a href="mailto:partner@bookmebus.com">
                 <Button
                   size="lg"
