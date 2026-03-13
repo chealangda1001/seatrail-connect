@@ -4,6 +4,7 @@ import forbesLogo from "@/assets/media/forbes.png";
 import incSeaLogo from "@/assets/media/inc-sea.png";
 import lonelyPlanetLogo from "@/assets/media/lonely-planet.png";
 import voaLogo from "@/assets/media/voa.png";
+import witLogo from "@/assets/media/wit.svg";
 
 const mediaOutlets = [
   {
