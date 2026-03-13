@@ -69,7 +69,6 @@ const TrustSection = () => {
           ))}
         </div>
 
-        {/* Stats strip - placeholder values, replace with real metrics */}
         <ScrollReveal delay={0.3}>
           <div className="bg-card rounded-3xl p-8 lg:p-10 card-shadow border border-border/50">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
