@@ -70,19 +70,6 @@ const TrustSection = () => {
           ))}
         </div>
 
-        <ScrollReveal delay={0.3}>
-          <div className="bg-card rounded-3xl p-8 lg:p-10 card-shadow border border-border/50">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-              {stats.map((s, i) => (
-                <div key={i} className="text-center">
-                  <s.icon className="w-8 h-8 text-primary mx-auto mb-3" />
-                  <div className="font-heading text-2xl sm:text-3xl font-bold text-foreground mb-1">{s.value}</div>
-                  <p className="text-sm text-muted-foreground">{s.label}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </ScrollReveal>
       </div>
     </section>
   );
