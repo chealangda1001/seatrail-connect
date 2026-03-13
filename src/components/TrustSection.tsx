@@ -2,11 +2,11 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { ArrowRight, Calendar, Lock, Ticket, ShieldCheck } from "lucide-react";
 
 const routes = [
-  { from: "Phnom Penh", to: "Siem Reap" },
-  { from: "Phnom Penh", to: "Sihanoukville" },
-  { from: "Siem Reap", to: "Bangkok" },
-  { from: "Phnom Penh", to: "Ho Chi Minh City" },
-  { from: "Phnom Penh", to: "Vientiane, Laos PDR" },
+  { from: "Phnom Penh", to: "Siem Reap", href: "https://bookmebus.com/en/search/bus/phnom-penh/siem-reap" },
+  { from: "Phnom Penh", to: "Sihanoukville", href: "https://bookmebus.com/en/search/bus/phnom-penh/sihanoukville" },
+  { from: "Phnom Penh", to: "Bangkok", href: "https://bookmebus.com/en/search/bus/phnom-penh/bangkok" },
+  { from: "Phnom Penh", to: "Ho Chi Minh City", href: "https://bookmebus.com/en/search/bus/phnom-penh/ho-chi-minh" },
+  { from: "Phnom Penh", to: "Vientiane, Laos PDR", href: "https://bookmebus.com/en/search/bus/phnom-penh/vientiane" },
 ];
 
 const features = [
@@ -36,14 +36,17 @@ const TrustSection = () => {
         <ScrollReveal delay={0.1}>
           <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 mb-16">
             {routes.map((r, i) => (
-              <div
+              <a
                 key={i}
-                className="inline-flex items-center gap-2 px-5 py-3 bg-card rounded-2xl card-shadow border border-border/50 text-sm font-medium text-foreground"
+                href={r.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-3 bg-card rounded-2xl card-shadow border border-border/50 text-sm font-medium text-foreground hover:border-primary/30 hover:-translate-y-0.5 transition-all duration-200"
               >
                 {r.from}
                 <ArrowRight className="w-4 h-4 text-primary" />
                 {r.to}
-              </div>
+              </a>
             ))}
           </div>
         </ScrollReveal>
