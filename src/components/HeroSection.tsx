@@ -46,6 +46,19 @@ const HeroSection = () => {
             </div>
           </motion.div>
 
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 0.05 }}
+            className="mb-8"
+          >
+            <img
+              src={bookMeBusLogo}
+              alt="BookMeBus logo"
+              className="h-16 sm:h-20 lg:h-24 w-auto mx-auto"
+            />
+          </motion.div>
+
           <motion.h1
             className="font-heading text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-foreground leading-tight tracking-tight mb-6"
             initial={{ opacity: 0, y: 30 }}
