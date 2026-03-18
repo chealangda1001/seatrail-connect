@@ -4,7 +4,7 @@ import FounderStorySection from "@/components/FounderStorySection";
 import SolutionSection from "@/components/SolutionSection";
 import TrustSection from "@/components/TrustSection";
 import FeaturedOnSection from "@/components/FeaturedOnSection";
-
+import SaaSSection from "@/components/SaaSSection";
 import OperatorShowcaseSection from "@/components/OperatorShowcaseSection";
 import ImpactSection from "@/components/ImpactSection";
 import CTASection from "@/components/CTASection";
@@ -19,7 +19,7 @@ const Index = () => {
         <SolutionSection />
         <ImpactSection />
         <TrustSection />
-        
+        <SaaSSection />
         <OperatorShowcaseSection />
         <FeaturedOnSection />
         <CTASection />
