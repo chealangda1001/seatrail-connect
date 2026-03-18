@@ -19,7 +19,7 @@ const Index = () => {
         <SolutionSection />
         <ImpactSection />
         <TrustSection />
-        <SaaSSection />
+        
         <OperatorShowcaseSection />
         <FeaturedOnSection />
         <CTASection />
