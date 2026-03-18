@@ -31,6 +31,16 @@ import srlTransport from "@/assets/trust-logos/srl-transport.png";
 import thaiduong from "@/assets/trust-logos/thaiduong.png";
 import travelMart from "@/assets/trust-logos/travel-mart.png";
 import vibolExpress from "@/assets/trust-logos/vibol-express.png";
+import goHo from "@/assets/trust-logos/go-ho.png";
+import kampot from "@/assets/trust-logos/kampot.png";
+import kohrongCambodia from "@/assets/trust-logos/kohrong-cambodia.png";
+import kumhoSamco from "@/assets/trust-logos/kumho-samco.png";
+import kLana from "@/assets/trust-logos/k-lana.png";
+import raExpress from "@/assets/trust-logos/ra-express.png";
+import rally from "@/assets/trust-logos/rally.png";
+import rithiyaExpress from "@/assets/trust-logos/rithiya-express.png";
+import riverExpress from "@/assets/trust-logos/river-express.png";
+import romnyTour from "@/assets/trust-logos/romny-tour.png";
 
 const logos = [
   { name: "BS Transportation", image: bs },
@@ -63,6 +73,16 @@ const logos = [
   { name: "Thai Duong Limousine", image: thaiduong },
   { name: "Travel Mart Bangkok", image: travelMart },
   { name: "Vibol Express", image: vibolExpress },
+  { name: "Go Ho Travel", image: goHo },
+  { name: "Kampot Transports", image: kampot },
+  { name: "Koh Rong Cambodia", image: kohrongCambodia },
+  { name: "Kumho Samco Bus", image: kumhoSamco },
+  { name: "K-Lana Transportation", image: kLana },
+  { name: "RA Express VIP", image: raExpress },
+  { name: "Rally Tour & Travel", image: rally },
+  { name: "Rithiya Express", image: rithiyaExpress },
+  { name: "Cambodia River Express", image: riverExpress },
+  { name: "Romny Tour", image: romnyTour },
 ];
 
 const TrustLogosCarousel = () => {
