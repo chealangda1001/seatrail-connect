@@ -75,6 +75,14 @@ const HeroSection = () => {
           >
             Trusted by travelers and transport operators across Southeast Asia
           </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.65 }}
+          >
+            <TrustLogosCarousel />
+          </motion.div>
         </div>
       </div>
     </section>
