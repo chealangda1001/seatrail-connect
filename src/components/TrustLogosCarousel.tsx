@@ -41,6 +41,8 @@ import rally from "@/assets/trust-logos/rally.png";
 import rithiyaExpress from "@/assets/trust-logos/rithiya-express.png";
 import riverExpress from "@/assets/trust-logos/river-express.png";
 import romnyTour from "@/assets/trust-logos/romny-tour.png";
+import sakuraBus from "@/assets/trust-logos/sakura-bus.png";
+import yellowBus from "@/assets/trust-logos/yellow-bus.png";
 
 const logos = [
   { name: "BS Transportation", image: bs },
@@ -83,6 +85,8 @@ const logos = [
   { name: "Rithiya Express", image: rithiyaExpress },
   { name: "Cambodia River Express", image: riverExpress },
   { name: "Romny Tour", image: romnyTour },
+  { name: "Sakura Bus", image: sakuraBus },
+  { name: "Yellow Bus Cambodia", image: yellowBus },
 ];
 
 const TrustLogosCarousel = () => {
