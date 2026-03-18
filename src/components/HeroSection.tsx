@@ -55,7 +55,7 @@ const HeroSection = () => {
             <img
               src={bookMeBusLogo}
               alt="BookMeBus logo"
-              className="h-16 sm:h-20 lg:h-24 w-auto mx-auto"
+              className="h-8 sm:h-10 lg:h-12 w-auto mx-auto"
             />
           </motion.div>
 
