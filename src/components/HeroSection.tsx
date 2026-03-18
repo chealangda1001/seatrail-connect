@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Globe, MapPin, Wifi } from "lucide-react";
 import bmbServices from "@/assets/BMB_services.png";
+import bookMeBusLogo from "@/assets/bookmebus-logo.png";
 import TrustLogosCarousel from "@/components/TrustLogosCarousel";
 
 const HeroSection = () => {
@@ -43,6 +44,19 @@ const HeroSection = () => {
               <Globe className="w-4 h-4" />
               About BookMeBus
             </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 0.05 }}
+            className="mb-8"
+          >
+            <img
+              src={bookMeBusLogo}
+              alt="BookMeBus logo"
+              className="h-16 sm:h-20 lg:h-24 w-auto mx-auto"
+            />
           </motion.div>
 
           <motion.h1
