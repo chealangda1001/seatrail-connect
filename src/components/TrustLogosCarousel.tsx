@@ -11,6 +11,16 @@ import seila from "@/assets/trust-logos/Seila-logo.png";
 import cambolink from "@/assets/trust-logos/Tran-Cambolink-app-icon.png";
 import vetLogo from "@/assets/trust-logos/VET-logo.png";
 import vetNew from "@/assets/trust-logos/vet-new-logo.png";
+import buvaSea from "@/assets/trust-logos/buva_sea.png";
+import capitol from "@/assets/trust-logos/capitol.png";
+import evgo from "@/assets/trust-logos/evgo.png";
+import evtaxi from "@/assets/trust-logos/evtaxi.png";
+import larryta from "@/assets/trust-logos/larryta.png";
+import meko from "@/assets/trust-logos/meko.png";
+import meyhong from "@/assets/trust-logos/meyhong.png";
+import oudong from "@/assets/trust-logos/oudong.png";
+import royalRailway from "@/assets/trust-logos/royal-railway.png";
+import tct from "@/assets/trust-logos/tct.png";
 
 const logos = [
   { name: "BS Transportation", image: bs },
@@ -23,6 +33,16 @@ const logos = [
   { name: "Cambolink", image: cambolink },
   { name: "VET", image: vetLogo },
   { name: "VET Express", image: vetNew },
+  { name: "Buva Sea", image: buvaSea },
+  { name: "Capitol Tours", image: capitol },
+  { name: "EVGo Express", image: evgo },
+  { name: "EV Taxi", image: evtaxi },
+  { name: "Larryta", image: larryta },
+  { name: "Meko Limousine", image: meko },
+  { name: "Mey Hong", image: meyhong },
+  { name: "Oudong Express", image: oudong },
+  { name: "Royal Railway", image: royalRailway },
+  { name: "TCT Express", image: tct },
 ];
 
 const TrustLogosCarousel = () => {
