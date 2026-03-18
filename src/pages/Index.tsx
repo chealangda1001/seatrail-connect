@@ -1,7 +1,6 @@
 import { Navbar, Footer } from "@/components/Layout";
 import HeroSection from "@/components/HeroSection";
 import FounderStorySection from "@/components/FounderStorySection";
-import SolutionSection from "@/components/SolutionSection";
 import TrustSection from "@/components/TrustSection";
 import FeaturedOnSection from "@/components/FeaturedOnSection";
 import SaaSSection from "@/components/SaaSSection";
@@ -16,9 +15,8 @@ const Index = () => {
       <main>
         <HeroSection />
         <FounderStorySection />
-        <SolutionSection />
-        <ImpactSection />
         <TrustSection />
+        <ImpactSection />
         <SaaSSection />
         <OperatorShowcaseSection />
         <FeaturedOnSection />
