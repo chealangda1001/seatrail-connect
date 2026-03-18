@@ -21,6 +21,16 @@ import meyhong from "@/assets/trust-logos/meyhong.png";
 import oudong from "@/assets/trust-logos/oudong.png";
 import royalRailway from "@/assets/trust-logos/royal-railway.png";
 import tct from "@/assets/trust-logos/tct.png";
+import chanMolyRoth from "@/assets/trust-logos/chan-moly-roth.png";
+import kohRong from "@/assets/trust-logos/koh-rong.png";
+import ratanakSambath from "@/assets/trust-logos/ratanak-sambath.png";
+import rithTravel from "@/assets/trust-logos/rith-travel.png";
+import rithya from "@/assets/trust-logos/rithya.png";
+import sovanRithy from "@/assets/trust-logos/sovan-rithy.png";
+import srlTransport from "@/assets/trust-logos/srl-transport.png";
+import thaiduong from "@/assets/trust-logos/thaiduong.png";
+import travelMart from "@/assets/trust-logos/travel-mart.png";
+import vibolExpress from "@/assets/trust-logos/vibol-express.png";
 
 const logos = [
   { name: "BS Transportation", image: bs },
@@ -43,6 +53,16 @@ const logos = [
   { name: "Oudong Express", image: oudong },
   { name: "Royal Railway", image: royalRailway },
   { name: "TCT Express", image: tct },
+  { name: "Chan Moly Roth", image: chanMolyRoth },
+  { name: "Koh Rong Star Express", image: kohRong },
+  { name: "Ratanak Sambath", image: ratanakSambath },
+  { name: "Rith Travel", image: rithTravel },
+  { name: "Rithya Mondolkiri Express", image: rithya },
+  { name: "Sovan Rithy Express", image: sovanRithy },
+  { name: "SRL Transport", image: srlTransport },
+  { name: "Thai Duong Limousine", image: thaiduong },
+  { name: "Travel Mart Bangkok", image: travelMart },
+  { name: "Vibol Express", image: vibolExpress },
 ];
 
 const TrustLogosCarousel = () => {
