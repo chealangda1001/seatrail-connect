@@ -41,7 +41,7 @@ const ImpactSection = () => {
                 <img
                   src={c.map}
                   alt={`${c.name} map`}
-                  className="w-28 h-28 object-contain mb-4"
+                  className="w-56 h-56 object-contain mb-4"
                 />
                 <h4 className="font-heading font-bold text-foreground text-lg">{c.name}</h4>
                 <p className="text-primary font-semibold">{c.operators} Operators</p>
