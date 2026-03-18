@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Globe, MapPin, Wifi } from "lucide-react";
 import bmbServices from "@/assets/BMB_services.png";
+import bookMeBusLogo from "@/assets/bookmebus-logo.png";
 import TrustLogosCarousel from "@/components/TrustLogosCarousel";
 
 const HeroSection = () => {
