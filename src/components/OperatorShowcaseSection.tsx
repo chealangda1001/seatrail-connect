@@ -21,7 +21,7 @@ const operators = [
   { name: "Big Bus Angkor", image: bigbus },
   { name: "iBus", image: ibus },
   { name: "Oudong Transport", image: oudong },
-  { name: "HangMeas Express", image: hangmeas },
+  { name: "Hang Meas Mobile App", image: hangmeas },
   { name: "BookMe+", image: bookmeplus },
 ];
 
